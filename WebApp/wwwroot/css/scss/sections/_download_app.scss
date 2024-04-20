@@ -1,0 +1,55 @@
+﻿#download-app {
+    padding: 4rem 0;
+    background-color: var(--color-gray-100);
+
+    .container {
+        background-color: var(--color-gray-200);
+        display: flex;
+        justify-content: space-between;
+        padding: 6rem 1rem;
+
+        .download-image {
+            flex: 1;
+        }
+
+        .content {
+            flex: 1;
+
+            h1 {
+                width: 70%;
+            }
+
+            .download-app-group {
+                margin: 3rem 0;
+
+                .store {
+                    color: var(--color-gray-600);
+                }
+
+                .rating {
+                    margin-bottom: 10px;
+
+                    i {
+                        color: gold;
+                    }
+                }
+
+                .download {
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-between;
+                    .download-info {
+                        h4 {
+                        }
+
+                        .statistics {
+                        }
+                    }
+
+                    img {
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+﻿.account-details {
+    .container {
+        width: 50%;
+
+        aside {
+        }
+
+        .content {
+            padding-top: 4px;
+            padding-bottom: 15px;
+
+            .form-basic {
+
+
+                h5 {
+                }
+
+                .form-content {
+                    padding-top: 40px;
+                    padding-bottom: 15px;
+                    display: grid;
+                    gap: 20px;
+
+                    #form-firstname {
+                    }
+
+                    #form-lastname {
+                    }
+
+                    #form-email {
+                    }
+
+                    #form-phone {
+                    }
+
+                    #form-bio {
+                    }
+
+                    .form-button {
+                        display: flex;
+                        gap: 10px;
+                    }
+                }
+            }
+
+            .form-address {
+                .form-content {
+                    display: grid;
+                    gap: 20px;
+                }
+
+                .form-button {
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
