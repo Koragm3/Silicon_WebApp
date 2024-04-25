@@ -1037,6 +1037,9 @@ header .container .account-buttons .profile .profile-image form label {
 .signin .container form .input-group label {
   padding: 3px;
 }
+.signin .container form .input-group .error {
+  color: var(--color-gray-800);
+}
 .signin .container form .checkbox-group {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -1077,6 +1080,12 @@ header .container .account-buttons .profile .profile-image form label {
 }
 .signup .container form .input-group label {
   padding: 3px;
+}
+.signup .container form .input-group span {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-danger-dark);
+  padding: 2px 5px;
 }
 .signup .container form .checkbox-group {
   margin-top: 10px;
